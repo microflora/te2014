@@ -1,0 +1,19 @@
+<?php
+$config['protocol'] = 'smtp';
+$config['smtp_host'] = 'mail.sap.corp';
+$config['smtp_port'] = '25';
+//$config['smtp_host'] = 'smtp.sohu.com';
+//$config['smtp_port'] = '25';
+//$config['smtp_user'] = 'walkerthrough';
+//$config['smtp_pass'] = 'walker951753';
+//$config['smtp_host'] = 'smtp.sina.com';
+//$config['smtp_port'] = '25';
+//$config['smtp_user'] = 'walkerthrough';
+//$config['smtp_pass'] = 'walker951753';
+$config['smtp_timeout'] = 5;
+$config['mailtype'] = 'html';
+$config['charset'] = 'utf-8';
+$config['wordwrap'] = TRUE;
+$config['wrapchars'] = 76;
+$config['crlf'] = "\r\n";
+$config['newline'] = "\r\n";
