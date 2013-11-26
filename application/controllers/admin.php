@@ -8,6 +8,95 @@ class Admin extends CI_Controller
 		$this->load->model('account_model');
 	}
 
+	function approve_session() {
+		if($this->account_model->logged_in() && $this->account_model->is_role('Administrator')) {
+			$event_target = $this->input->post('__EVENTTARGET');
+			$event_argument = $this->input->post('__EVENTARGUMENT');
+			$event_argument2 = $this->input->post('__EVENTARGUMENT2');
+			$defaultview = TRUE;
+
+			$data['SelectedSID'] = (int)$event_argument;
+			
+			switch ($event_target) {
+				case "Assign":
+					$this->form_validation->
+					set_rules('speakerid', 'Speaker',
+						'is_natural_no_zero|xss_clean|required');
+					
+					$this->form_validation->
+					set_rules('language', 'Language',
+						'xss_clean|required');
+
+					$speakerid = $this->input->post('speakerid');;
+					$language = $this->input->post('language');
+
+					$data['speakers'] = teched_db_get_all_speakers();
+					$data['speakerid'] = (int)$speakerid;
+					$data['language'] = (int)$language;
+					
+					if($this->form_validation->run() == TRUE)
+					{
+						if ( teched_db_add_speaker_assignments($event_argument, $speakerid, $language))
+						{
+							$data['title']="Success";
+							$data['message'] =
+								"Thank you! The speaker list has been updated. Please click "
+								. anchor('admin/assign_speaker', 'here')." to got back.";
+								$this->load->view('account/result', $data);
+						} else {
+							$data['title']="Fail";
+							$data['message'] =
+								"There was a problem when updating the speaker list. Please click "
+								. anchor('admin/assign_speaker', 'here')." to got back.";
+								$this->load->view('account/result', $data);
+						}
+		
+						$defaultview = FALSE;
+					}
+					
+					break;
+				case "Remove":
+					if ( teched_db_remove_speaker_assignments($event_argument, $event_argument2))
+					{
+						$data['title']="Success";
+						$data['message'] =
+							"Thank you! The speaker list has been updated. Please click "
+							. anchor('admin/assign_speaker', 'here')." to got back.";
+							$this->load->view('account/result', $data);
+					} else {
+						$data['title']="Fail";
+						$data['message'] =
+							"There was a problem when updating the speaker list. Please click "
+							. anchor('admin/assign_speaker', 'here')." to got back.";
+							$this->load->view('account/result', $data);
+					}
+					
+					$defaultview = FALSE;
+					break;
+				case "Cancel":
+					$data['SelectedSID'] = 0;
+					break;
+				case "Edit":
+					$data['speakers'] = teched_db_get_all_speakers();
+					$data['speakerid'] = 0;
+					$data['language'] = 0;
+					$data['translator'] = 0;
+					break;
+			}
+			
+			if ($defaultview) {
+				$data['activemenu']="Admin_Approve_Session";
+				$data['activesubmenu']="Approve_Session";
+				$data['formaction'] = "../admin/approve_session.html";
+				$data['sessions'] = $this->prepare_speaker_assignment_list(teched_db_get_all_speaker_assignments());
+				$this->load->view('main', $data);
+			}
+		}
+		else {
+			redirect('account/login');
+		}
+	}
+	
 	function assign_speaker() {
 		if($this->account_model->logged_in() && $this->account_model->is_role('Administrator')) {
 			$event_target = $this->input->post('__EVENTTARGET');

@@ -296,7 +296,7 @@ function checkForm() {
 				To give attendees more detailed information about who you are,
 				please provide your personal links to the following websites
 				(optional). This information will be published on your speaker page
-				on the SAP TechEd 2010 websites and will be publicly available.</td>
+				on the SAP D-Code 2010 websites and will be publicly available.</td>
 
 			</tr>
 

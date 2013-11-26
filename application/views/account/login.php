@@ -121,10 +121,10 @@ function checkForm() {
 }
 </script>
 
-				<h1>SAP TechEd 2014 &ndash; SAP Speaker Site</h1>
+				<h1>SAP D-Code 2014 &ndash; SAP Speaker Site</h1>
 
-				<p>Thank you for your interest in presenting at SAP TechEd China.
-				You may get more information from TechEd 2014 Shanghai <a
+				<p>Thank you for your interest in presenting at SAP D-Code China.
+				You may get more information from D-Code 2014 Shanghai <a
 					href="http://www.sapteched.com/china" target="_blank">public
 				website</a> or <a
 					href="https://community.wdf.sap.corp/sbs/projects/sap-teched-2014-shanghai"
@@ -135,7 +135,7 @@ function checkForm() {
 					<li>Propose local content.</li>
 				</ul>
 
-				<p>All sign-up and proposal are reviewed by the SAP TechEd team. You
+				<p>All sign-up and proposal are reviewed by the SAP D-Code team. You
 				will be notified if your sign-up or proposal is accepted or rejected
 				in early August. Content proposals are subject to a final review by
 				content steering committee.</p>

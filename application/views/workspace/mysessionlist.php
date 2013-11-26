@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 <p><font color="red"><strong>IMPORTANT:</strong></font> Below, please
 get the list of all the sessions you've involved as the speaker and/or
-the translator. It is subject to change, based on TechEd team review and
+the translator. It is subject to change, based on D-Code team review and
 update. The final decision may be communicated via email.</p>
 
 <table width="98%" border="0" cellspacing="1" cellpadding="6"

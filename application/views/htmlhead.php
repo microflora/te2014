@@ -1,4 +1,4 @@
-	<title> SAP TechEd 2014 - Speaker Site</title>
+	<title> SAP D-Code 2014 - Speaker Site</title>
 	<meta http-equiv="Content-Language" content="en-US" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="Pragma" content="no-cache" />

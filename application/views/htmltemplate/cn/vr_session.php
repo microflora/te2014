@@ -14,7 +14,7 @@
 	href="../../global/ui/css/events.css" />
 <link rel="stylesheet" type="text/css" media="print"
 	href="../../global/ui/css/print.css" />
-<title>SAP TechEd 2014 Shanghai</title>
+<title>SAP D-Code 2014 Shanghai</title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <script type="text/javascript" src="../../global/ui/js/jquery.js"></script>
@@ -44,7 +44,7 @@
 <ul id="nav-utility-singleline">
 	<li id="utilitynav-phone"><a href="../../en/index/home.asp?id=1">English</a></li>
 	<li id="utilitynav-phone"><a href="http://www.sapteched.com/"
-		target="_blank">SAP TechEd 全球网站</a></li>
+		target="_blank">SAP D-Code 全球网站</a></li>
 	<li><a href="mailto:saptechedinfo.china@sap.com" title="E-Mail SAP">联系我们</a></li>
 	<li><a href="http://www.sap.com" target="_blank">SAP 网站</a></li>
 </ul>
@@ -82,7 +82,7 @@
 <div id="subtop" class="clearfix">
 <ul id="nav-sub" class="clearfix">
 	<li><a href="home.asp"><span>内容概要</span></a></li>
-	<li><a href="schedulings.asp"><span>TechEd日程</span></a></li>
+	<li><a href="schedulings.asp"><span>D-Code日程</span></a></li>
 	<li><a href="vr_sessions.asp" class="on"><span>价值实现区日程</span></a></li>
 	<li><a href="tracks.asp"><span>课题大类</span></a></li>
 	<li><a href="speakers.asp"><span>大会讲师</span></a></li>

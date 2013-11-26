@@ -32,6 +32,9 @@
 			}
 		</script> <?php 
 		switch ($activesubmenu) {
+			case "Approve_Session":
+				include 'application/views/admin/approve_session.php';
+				break;
 			case "Assign_Speaker":
 				include 'application/views/admin/assign_speaker.php';
 				break;

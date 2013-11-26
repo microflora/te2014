@@ -48,7 +48,7 @@
 						<div id=tooltip></div>
 						<script language=javascript type=text/javascript
 							src="/te_res/ddtooltip.js"></script> <!-- Content Begin -->
-						<h1>SAP TechEd 2014 - SAP Speaker Site</h1>
+						<h1>SAP D-Code 2014 - SAP Speaker Site</h1>
 						<h2><?php echo $title; ?></h2>
 						<table border=0 cellspacing=0 cellpadding=4 width="80%" align=left>
 							<tbody>

@@ -7,10 +7,10 @@ $(document).ready(function() {
 <h1>Sign Up for Sessions</h1>
 
 <p><font color="red"><strong>IMPORTANT:</strong></font> Please sign up
-as a speaker for the sessions listed below. Then, TechEd team will
+as a speaker for the sessions listed below. Then, D-Code team will
 decide the final session list for China event according to the speaker
 availability and the local market requirement. Final speaker assignments
-are subject to change, based on TechEd team review.</p>
+are subject to change, based on D-Code team review.</p>
 
 <table width="98%" border="0" cellspacing="1" cellpadding="6"
 	align="left" class="DataTable">

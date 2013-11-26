@@ -142,7 +142,7 @@ function checkForm() {
 }
 </script>
 
-				<h1>SAP TechEd 2014 &ndash; SAP Speaker Site</h1>
+				<h1>SAP D-Code 2014 &ndash; SAP Speaker Site</h1>
 
 				<h2>Create an Account</h2>
 				<form action="register.html" method="post" name="login">

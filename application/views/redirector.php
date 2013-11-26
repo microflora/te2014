@@ -46,7 +46,7 @@
 						<div class=MainContentPanel>
 						<div class=Dove>
 						<div id=tooltip></div>
-						<h1>SAP TechEd 2014 - SAP Speaker Site</h1>
+						<h1>SAP D-Code 2014 - SAP Speaker Site</h1>
 						<h2>Redirector</h2>
 						<table border=0 cellspacing=0 cellpadding=4 width="80%" align=left>
 							<tbody>

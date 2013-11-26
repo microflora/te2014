@@ -83,7 +83,7 @@
 					type="radio" name="translator" value="2"
 					<?php if (!$isTranslator && ($isTranslator != NULL)) echo 'checked="checked"'; ?> />No<br />
 				Speaker is encouraged to translate the slide for quality and better
-				understanding. When approved, TechEd team will grant the translator
+				understanding. When approved, D-Code team will grant the translator
 				a small incentive of 500 RMB / session.<?php }?></td>
 			</tr>
 			<tr>

@@ -39,7 +39,7 @@ function Prerequisites_cn_char_count(){
 	<li>By submitting a session proposal, you grant to SAP a non-exclusive,
 	and perpetual, worldwide right to publish the presentation materials in
 	any and all media, including but not limited to SAP Websites, printed
-	conference collateral, Webcasts, and Virtual SAP TechEd.</li>
+	conference collateral, Webcasts, and Virtual SAP D-Code.</li>
 </ul>
 
 <script>

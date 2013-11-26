@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="../../global/ui/css/sapcom.css" />
 <link rel="stylesheet" type="text/css" media="all" href="../../global/ui/css/events.css" />
 <link rel="stylesheet" type="text/css" media="print" href="../../global/ui/css/print.css" />
-<title>SAP TechEd 2014 Shanghai</title>
+<title>SAP D-Code 2014 Shanghai</title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <script type="text/javascript" src="../../global/ui/js/jquery.js"></script>
@@ -33,10 +33,10 @@
   <!--googleoff: index-->
  <div id="headercontent">
     <div id="header">
-      <q><a href="../index/home.asp" title="SAP"><img src="../../global/ui/images/logos/SAPTECHED_CH2012.png" alt="SAP TechEd 2014"></a></q>
+      <q><a href="../index/home.asp" title="SAP"><img src="../../global/ui/images/logos/SAPTECHED_CH2012.png" alt="SAP D-Code 2014"></a></q>
      <ul id="nav-utility-singleline">
       <li id="utilitynav-phone"><a href="../../cn/index/home.asp?id=1">中文</a></li>
-        <li id="utilitynav-phone"><a href="http://www.sapteched.com/" target="_blank">SAP TechEd Global</a></li>
+        <li id="utilitynav-phone"><a href="http://www.sapteched.com/" target="_blank">SAP D-Code Global</a></li>
         <li><a href="mailto:saptechedinfo.china@sap.com" title="E-Mail SAP">Contact Us</a></li>
         <li><a href="http://www.sap.com" target="_blank">SAP.com</a></li>
       </ul>
@@ -50,12 +50,12 @@
     <div>
       <div id="nav-main-standard">
         <ul>
-          <li><a href="../index/home.asp"><span>SAP TechEd Homepage</span></a></li>
+          <li><a href="../index/home.asp"><span>SAP D-Code Homepage</span></a></li>
           <li><a href="../reghotel/home.asp"><span>Registration/Hotel</span></a></li>
           <li><a href="../community/home.asp"><span>Get Social</span></a></li>
           <li><a href="../about/home.asp" ><span>About</span></a></li>
           <li><a href="home.asp" class="on"><span>Sessions</span></a></li>
-          <li><a href="http://www.sapteched.com/online" target="_blank"><span>SAP TechEd Online</span></a></li>
+          <li><a href="http://www.sapteched.com/online" target="_blank"><span>SAP D-Code Online</span></a></li>
           <li><a href="../activities/home.asp" ><span>Activities</span></a></li>
           <li><a href="../exhibitors/home.asp"><span>Exhibitors</span></a></li>
           <!--<li><a href="#"><span>Nav Item 9</span></a></li>-->
@@ -78,7 +78,7 @@
         <ul id="nav-sub" class="clearfix">
           
            <li><a href="home.asp" ><span>Overview</span></a></li>
-          <li><a href="schedulings.asp"  ><span>TechEd Agenda</span></a></li>
+          <li><a href="schedulings.asp"  ><span>D-Code Agenda</span></a></li>
           <li><a href="vr_sessions.asp"  ><span>Value Realization Agenda</span></a></li>
           <li><a href="tracks.asp"  class="on" ><span>Tracks</span></a></li>
           <li><a href="speakers.asp" ><span>Speakers</span></a></li>

@@ -183,6 +183,17 @@ function is_role($role)
 <!-- Start the block for Administrator role -->
 <strong>Administrator's menu</strong><br/>
 <div
+	class="<?php if ($activemenu == "Admin_Approve_Session") echo "LeftNavActiveBg"; else echo "LeftNavMediumBg"; ?>">
+<div class="LeftNavArrowDn">
+<div class="LeftNavItem"><a href="../admin/approve_session.html"
+	onfocus="this.blur()" title="Approve Session"><img
+	src="/te_res/spacer.gif" width="200" height="40" border="0"
+	alt="Approve Session" /></a></div>
+<p class="LeftNavLevel01"><a href="../admin/approve_session.html"
+	title="Approve Session">Approve Session</a></p>
+</div>
+</div>
+<div
 	class="<?php if ($activemenu == "Admin_Assign_Speaker") echo "LeftNavActiveBg"; else echo "LeftNavMediumBg"; ?>">
 <div class="LeftNavArrowDn">
 <div class="LeftNavItem"><a href="../admin/assign_speaker.html"
@@ -204,7 +215,7 @@ function is_role($role)
 	title="Assign Translator">Assign Translator</a></p>
 </div>
 </div>
-<!-- End the block for Editor role -->
+<!-- End the block for Administrator role -->
 <?php } ?>
 
 </div>

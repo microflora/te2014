@@ -17,7 +17,7 @@
 	    	        </p>
 				</td>
 				<td align="right" valign="bottom" width="35%" height="45">
-				    <p class="FooterText">Questions or comments about SAP TechEd Speaker Site<br/>Contact us at <a class=navigation href="mailto:yong.li@sap.com?subject=SAP TechEd Speaker Site Inquiry">yong.li@sap.com</a>.</p>
+				    <p class="FooterText">Questions or comments about SAP D-Code Speaker Site<br/>Contact us at <a class=navigation href="mailto:yong.li@sap.com?subject=SAP D-Code Speaker Site Inquiry">yong.li@sap.com</a>.</p>
 
 				</td>
 			</tr>

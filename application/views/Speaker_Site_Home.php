@@ -24,20 +24,15 @@
 
 <h3>General Information</h3>
 <ul>
-	<li>SAP TechEd 2014 Shanghai is planned on <strong>December 4-5</strong>
-	at <a href="http://www.shicc.net/" target="_blank">Shanghai
-	International Convention Center</a> , please get the content plan
-	detail <a
-		href="https://community.wdf.sap.corp/sbs/projects/sap-teched-2014-shanghai"
-		target="_blank">here</a>.</li>
-
+	<li>SAP D-Code 2014 Shanghai is planned on <strong>March 12 – 14, 2014</strong>
+	at <a href="http://www.shexpocenter.com/en/default.aspx" target="_blank">Shanghai Expo Center</a>.</li>
 </ul>
 
 <h3>Involved as a Speaker</h3>
 <ul>
 	<li>To be involved as the speaker, please <a
 		href="../signup4global/start.html">Sign Up As Speaker</a>.</li>
-	<li>To help TechEd team making decision and, later, the audience to
+	<li>To help D-Code team making decision and, later, the audience to
 	know you<br />
 	please also complete your personal profile via:
 	<ul>
@@ -56,7 +51,7 @@
 
 </ul>
 
-<p>For general TechEd China information, visit <a
+<p>For general D-Code China information, visit <a
 	href="http://www.sapteched.com/china" target="_blank">www.sapteched.com/china</a>
 or feel free to contact <a href="mailto:yong.li@sap.com">Yong Li</a> as
 the local content coordinator.</p>

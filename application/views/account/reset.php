@@ -117,7 +117,7 @@ function checkForm() {
 }
 </script>
 
-				<h1>SAP TechEd 2014 &ndash; SAP Speaker Site</h1>
+				<h1>SAP D-Code 2014 &ndash; SAP Speaker Site</h1>
 
 
 				<h2>Request a new password</h2>

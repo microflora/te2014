@@ -6,10 +6,10 @@ $(document).ready(function() {
 </script>
 <h1>Propose Local for Sessions</h1>
 <p><font color="red"><strong>IMPORTANT:</strong></font> Please propose
-the sessions. Then, TechEd team will decide the final session list for
+the sessions. Then, D-Code team will decide the final session list for
 China event according to the speaker availability and the local market
 requirement. Final speaker assignments are subject to change, based on
-TechEd team review.</p>
+D-Code team review.</p>
 
 <table width="98%" border="0" cellspacing="1" cellpadding="6"
 	align="left" class="DataTable">
