@@ -134,7 +134,7 @@ class SignUp4Global extends CI_Controller
 			$data['showchinaapproved'] = $this->input->post('showchinaapproved');
 		} else {
 			// defaut only list approved sessions
-			$data['showchinaapproved'] = FALSE;
+			$data['showchinaapproved'] = TRUE;
 		}
 
 		if ($data['showchinaapproved']) {
