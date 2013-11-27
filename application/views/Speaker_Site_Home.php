@@ -53,7 +53,7 @@
 
 <p>For general D-Code China information, visit <a
 	href="http://www.sapteched.com/china" target="_blank">www.sapteched.com/china</a>
-or feel free to contact <a href="mailto:yong.li@sap.com">Yong Li</a> as
+or feel free to contact <a href="mailto:kai.mi@sap.com">Kai Mi</a> as
 the local content coordinator.</p>
 <p>The entire China conference Management Team would like to thank you
 for all your time and effort to make it success.</p>

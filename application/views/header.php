@@ -14,7 +14,7 @@
 				    <td valign="middle" align="left" width="225" height="36"><img src="/te_res/D-CodeLogo.gif" alt="SAP - SAP D-Code" border="0" /><img src="/te_res/Spacer.gif" width="15" height="1" alt="" border="0"/><img src="/te_res/SpacerFFF.gif" width="1" height="36" alt="" border="0"/></td>
 				    <td align="left" valign="middle"><img src="/te_res/Spacer.gif" width="15" height="1" alt="" border="0"/><img src="/te_res/CountryLabelChina.gif" id="mobjTemplate_mobjHeader_mimgCountryLabel" alt="Global" border="0" /><br/></td>
 				    <td align="right">
-				        <p class="HeaderText"><a href="http://www.sapteched.com/china" target="_blank">Home</a><span class="HeaderBracket">&#160;</span><a href="mailto:yong.li@sap.com?subject=SAP D-Code Speaker Site Inquiry" id="mobjTemplate_mobjHeader_maLink4"  target="_blank">Contact Us</a>&nbsp;&nbsp;&nbsp;</p>
+				        <p class="HeaderText"><a href="http://www.sapteched.com/china" target="_blank">Home</a><span class="HeaderBracket">&#160;</span><a href="mailto:kai.mi@sap.com?subject=SAP D-Code Speaker Site Inquiry" id="mobjTemplate_mobjHeader_maLink4"  target="_blank">Contact Us</a>&nbsp;&nbsp;&nbsp;</p>
 				    </td>
 
 			    </tr>
