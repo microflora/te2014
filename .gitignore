@@ -1,0 +1,4 @@
+# Ignore eclipse project meta files
+.settings/
+/.buildpath
+/.project
