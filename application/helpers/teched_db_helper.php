@@ -792,5 +792,23 @@ if ( ! function_exists('teched_db_update_translator_assignment_status'))
 	}
 }
 
+if ( ! function_exists('teched_db_update_session_status'))
+{
+	function teched_db_update_session_status($SID, $status) {
+		$CI =& get_instance();
+
+		$CI->db->where('SID', $SID);
+		$CI->db->set('China', $status);
+
+		if($CI->db->update('g_sessions'))
+		{
+			return TRUE;
+		}
+
+		return FALSE;
+	}
+}
+
+
 /* End of file sql_helper.php */
 /* Location: ./application/helpers/sql_helper.php */
