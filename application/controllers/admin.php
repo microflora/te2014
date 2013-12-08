@@ -12,9 +12,11 @@ class Admin extends CI_Controller
 		if($this->account_model->logged_in() && $this->account_model->is_role('Administrator')) {
 			$event_target = $this->input->post('__EVENTTARGET');
 			$event_argument = $this->input->post('__EVENTARGUMENT');
+			$event_argument2 = $this->input->post('__EVENTARGUMENT2');
 			
 			$SID = (int)$event_argument;
 			$status = $event_target;
+			$newSessionId = $event_argument2;
 				
 			switch ($event_target) {
 				case "Unknown":
@@ -23,6 +25,13 @@ class Admin extends CI_Controller
 				case "Approved":
 					if(teched_db_update_session_status($SID, $status)) {
 						$this->output->set_output($event_target);
+					} else {
+						$this->output->set_output("ERROR");
+					}
+					break;
+				case "Update_Session_ID":
+					if(teched_db_update_session_Id($SID, $newSessionId)) {
+						$this->output->set_output($newSessionId);
 					} else {
 						$this->output->set_output("ERROR");
 					}

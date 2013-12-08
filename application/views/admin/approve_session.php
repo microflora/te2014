@@ -13,8 +13,6 @@ $(document).ready(function() {
 			"text");
 	}
 
-	$('a.speaker_summary').cluetip({width:'420px', positionBy: 'mouse', showTitle: false});
-
 	$( "#dialog-form" ).dialog({
 		autoOpen: false,
 		height: 120,
@@ -48,6 +46,44 @@ $(document).ready(function() {
 		myParameters = $( this ).attr("axis");
 		$( "#dialog-form" ).dialog( "open" );
 	});
+
+
+	function updateSessionId(cell, sid, newSessionId) {
+		// alert("approve_session?__EVENTTARGET=Update_Session_ID&__EVENTARGUMENT=" + sid + "&__EVENTARGUMENT2=" + newSessionId);
+		$.post("approve_session", {__EVENTTARGET:'Update_Session_ID', __EVENTARGUMENT:sid, __EVENTARGUMENT2:newSessionId}, 
+			function (data, textStatus) {
+				cell.text(data);
+			},
+			"text");
+	}
+	
+	$( "#dialog-form-session-id" ).dialog({
+		autoOpen: false,
+		height: 120,
+		width: 400,
+		modal: true,
+		buttons: {
+			"Save": function() {
+				updateSessionId(mySessionIdCell, mySID, $("#new-session-id").val());
+				$( this ).dialog( "close" );
+			},
+			Cancel: function() {
+				$( this ).dialog( "close" );
+			}
+		},
+		close: function() {
+			
+		}
+	});
+	
+
+	$( ".chang-session-id" )
+	.bind("click", function() {
+		mySessionIdCell = $( this );
+		mySID = $( this ).attr("axis");
+		$( "#new-session-id" ).val(mySessionIdCell.text());
+		$( "#dialog-form-session-id" ).dialog( "open" );
+	});
 });
 
 
@@ -56,9 +92,13 @@ $(document).ready(function() {
 <div id="dialog-form" title="Set Status">
 <p>Please set the status</p>
 </div>
+<div id="dialog-form-session-id" title="Set Session ID">
+<label for="new-session-id">Session ID</label>
+<input id="new-session-id" type="text" name="new-session-id" value="" size=10 />
+</div>
 
 <h1>Approve Session</h1>
-
+<p>Click the value of <strong>ID</strong> or <strong>Status</strong> to change it.</p>
 <table width="98%" border="0" cellspacing="1" cellpadding="6"
 	align="left" class="DataTable">
 
@@ -72,7 +112,8 @@ $(document).ready(function() {
 	$temp = "DataTableRow01";
 	foreach($sessions as $item):?>
 	<tr class="<?php echo $temp; ?>">
-		<td align="left" valign="middle"><?php echo $item['SessionID']; ?></td>
+		<td align="left" valign="middle" class="chang-session-id"
+			axis="<?php echo $item['SID']; ?>"><?php echo $item['SessionID']; ?></td>
 		<td align="left" valign="middle"><?php echo $item['Title']."<br/>".$item['Type']."<br/>".$item['Level']; ?></td>
 		<td align="left" valign="middle" class="change-status"
 			axis="<?php echo $item['SID']; ?>"><?php echo (isset($item['China']) && !empty($item['China'])) ? $item['China'] : 'Unknown'; ?></td>

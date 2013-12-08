@@ -809,6 +809,22 @@ if ( ! function_exists('teched_db_update_session_status'))
 	}
 }
 
+if ( ! function_exists('teched_db_update_session_ID'))
+{
+	function teched_db_update_session_ID($SID, $newSessionId) {
+		$CI =& get_instance();
+
+		$CI->db->where('SID', $SID);
+		$CI->db->set('SessionID', $newSessionId);
+
+		if($CI->db->update('g_sessions'))
+		{
+			return TRUE;
+		}
+
+		return FALSE;
+	}
+}
 
 /* End of file sql_helper.php */
 /* Location: ./application/helpers/sql_helper.php */
